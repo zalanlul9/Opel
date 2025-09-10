@@ -1,5 +1,5 @@
 .container{
-    width: 75% !important;
+    width: 80% !important;
 }
 .navbar{
     background-color: #9de76e;
@@ -12,7 +12,17 @@ nav a{
     color: black;
     font-size: xx-large
 }
-header img{
-    border-bottom:groove 40px #9de76e;
-    
+.card h2{
+    text-justify: newspaper;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: x-large;
+    background-color: #9de76e;
+    font-variant: small-caps;
+  }
+footer{
+    background-color: black;
 }

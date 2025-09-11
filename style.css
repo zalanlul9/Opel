@@ -32,3 +32,6 @@ footer{
 #bal, #jobb{
     position:fixed !important;
 }
+#logo{
+    padding-top: 250px;
+}

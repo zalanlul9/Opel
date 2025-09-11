@@ -1,6 +1,9 @@
 .container{
     width: 80% !important;
 }
+.body{
+    height: 768px !important;
+}
 .navbar{
     background-color: #9de76e;
     height: 50px;
@@ -25,4 +28,7 @@ nav a{
   }
 footer{
     background-color: black;
+}
+#bal, #jobb{
+    position:fixed !important;
 }

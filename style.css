@@ -1,32 +1,54 @@
-body{
+body {
     background-color: black;
     margin: auto;
 }
-.container{
+.container {
     width: 80% !important;
 }
-.body{
+
+.astra {
+    width: 100%;
+    max-width: 584px;
+    margin: auto;
+    display: block;
+}
+
+.body {
     height: 768px !important;
     background-color: black !important;
 }
-.navbar{
+.navbar {
     background-color: #9de76e;
     height: 50px;
 }
-nav a{
+
+.navbar .container-md {
+    max-width: 584px;
+    width: 100%;
+    margin: auto;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+nav a {
     font-family: 'Harlow Solid Italic', sans-serif;
     font-style: normal;
     text-decoration: none;
     color: black;
-    font-size: xx-large
+    font-size: xx-large;
 }
-.card{
+
+.card {
     width: 584px;
-    padding: 0 !important;    
+    padding: 0 !important;
 }
-.card h2{
+
+.card h2 {
     text-justify: newspaper;
 }
+
 .top-left {
     position: absolute;
     top: 8px;
@@ -34,47 +56,70 @@ nav a{
     font-size: x-large;
     background-color: #9de76e;
     font-variant: small-caps;
-  }
-footer{
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: black;
+}
+
+footer {
     background-color: #9de76e;
     font-family: 'Harlow Solid Italic', sans-serif;
     font-size: xx-large;
-    text-align: right   ;
-    width: 1200px;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
-.footer{
-    margin-right: 10px;
-    width: 1200px;
-}
-.left{
-    margin-left: 10px;
 
+.footer {
+    margin-right: 10px;
+    max-width: 584px;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
-#bal{
-    position:fixed !important;
-    height: 1000px;
-} 
-#jobb{
-    position:fixed !important;
+
+.footer.wrapper {
+    max-width: 584px;
+    width: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.left {
+    margin-left: 10px;
+}
+
+#bal {
+    position: fixed !important;
     height: 1000px;
 }
-aside,section img{
+
+#jobb {
+    position: fixed !important;
+    height: 1000px;
+}
+
+aside,
+section img {
     overflow: hidden !important;
     width: auto;
 }
 
-#logo{
+#logo {
     padding-top: 250px;
 }
 
 .modal-content {
     background-color: black;
-    color: black; 
-    border: 2px solid #9de76e; 
+    color: black;
+    border: 2px solid #9de76e;
     border-radius: 8px;
 }
 
-.modal-header, .modal-footer {
+.modal-header,
+.modal-footer {
     border-color: #9de76e;
     background-color: black;
 }
@@ -86,7 +131,7 @@ aside,section img{
 }
 
 .modal-body {
-    color: black; 
+    color: black;
 }
 
 .btn-close {
@@ -104,7 +149,8 @@ aside,section img{
     font-weight: bold;
 }
 
-.btn-secondary:hover, .btn-secondary:focus {
+.btn-secondary:hover,
+.btn-secondary:focus {
     background-color: #7cc35a;
     border-color: #7cc35a;
     color: black;
@@ -122,24 +168,27 @@ aside .card:hover {
     transition: box-shadow 0.3s ease-in-out !important;
 }
 
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-size: x-large;
-    background-color: #9de76e;
-    font-variant: small-caps;
-    padding: 2px 8px;
-    border-radius: 4px;
+.row > .col-sm-6:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: black;
+    font-family: 'Harlow Solid Italic', sans-serif;
+    font-size: large;
 }
 
-.navbar{
-    width: 100%;
-    margin: auto;
+.left, .right {
+    position: static !important;
 }
 
-.astra{
-    width: 120%;
-    margin: auto;
+.kozepso{
+    max-width: 200px;
+    max-height: 768px;
 }

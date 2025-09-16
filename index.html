@@ -1,72 +1,144 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Főoldal</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.cdnfonts.com/css/harlow-solid-italic" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/harlow-solid-italic" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 </head>
 <body>
-    <img id="jobb" class="end-0" src="./img/jobboldal2.png" alt="">
-    <img id="bal" class="start-0" src="./img/baloldal2.png" alt="">
-    <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-md">
-                    <a href="#" class="nav-brand position-absolute top-0 start-0"> BZ Magazin</a>
-                    <div id="logo" class="top-0 start-50 img img-fluid"><img src="./img/Opel-Logo_2017.png" alt=""></div>
-                    <a href="#" class="nav-brand position-absolute top-0 end-0">Dátum: 2025.09.15</a>
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Kezdetek</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
                 </div>
-            </nav>
+                <div class="modal-body">
+                    Adam Opel halála után cégét özvegye és két fia vette át. A cég 1899-ben kapcsolódott be az autógyártásba, Adam halála után. Az első sikeres modelljük az lóerős Opel Patent Motorwagen System Lutzmann volt. Rövid időn belül az Opel az egyik legnagyobb német autógyártóvá fejlődött.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Legeladottabb</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+                </div>
+                <div class="modal-body">
+                        Az Opel legeladottabb modellje az Opel Corsa, amelyből 1982-es bemutatása óta több mint 14 millió darabot értékesítettek világszerte. A Corsa modell sikertörténete azóta is tart, és a legújabb generációi is nagy keresletnek örvendenek
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Újmodellek</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+                </div>
+                <div class="modal-body">
+                    Az Opel 2025-ben főként kompakt SUV-okat és elektromos modelleket kínál, többféle hibrid és tisztán elektromos hajtással. Az árkategória a belépőszintű városi crossoverektől a középkategóriás, prémiumabb felszereltségű SUV-okig terjed.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal4Label">Formavilág</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+                </div>
+                <div class="modal-body">
+                    Az Opel formavilága összességében a letisztult, időtálló eleganciát ötvözi a sportos részletekkel. Az évek során a márka dizájnja mindig a modern, karakteres megjelenést helyezte előtérbe, amely egyszerre sugall megbízhatóságot és dinamizmust.                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezárás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img id="jobb" class="end-0" src="./img/jobboldal2.png" alt="" />
+    <img id="bal" class="start-0" src="./img/baloldal2.png" alt="" />
+    <div class="container clearfix">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-md">
+                <a href="#" class="left nav-brand position-absolute top-0 start-0"> BZ Magazin</a>
+                <div id="logo" class="right top-0 start-50 img img-fluid"><img src="./img/Opel-Logo_2017.png" alt="" /></div>
+                <a href="#" class="nav-brand position-absolute top-0 end-0">Dátum: 2025.09.16</a>
+            </div>
+        </nav>
         <main>
             <header>
                 <div class="maintxt">
-                    <img class="img img-fluid" src="./img/opel_astra_opc_x-treme_concept_4.jpg" alt="">
+                    <img class="img img-fluid" src="./img/opel_astra_opc_x-treme_concept_4.jpg" alt="" />
                 </div>
             </header>
             <div class="row">
                 <div class="col-sm-6">
                     <aside>
-                        <div class="card" type="button">
-                                <div class="maintxt">
-                                    <div class="top-left">Kezdetek</div>
-                                    <img class="img img-fluid" src="./img/2403342-ig0n580hcu-whr.jpg" class="img-responsive">
-                                </div>
+                        <div class="card" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="cursor:pointer;">
+                            <div class="maintxt">
+                                <div class="top-left">Kezdetek</div>
+                                <img class="vqwimg img-fluid" src="./img/2403342-ig0n580hcu-whr.jpg" alt="Kezdetek" />
+                            </div>
                         </div>
-                        <div class="card">
-                                <div class="maintxt">
-                                    <div class="top-left">Legeladottabb</div>
-                                    <img class="img img-fluid" src="./img/5564_orig-1200x900.jpg" class="img-responsive">
-                                </div>
+
+                        <div class="card" type="button" data-bs-toggle="modal" data-bs-target="#modal2" style="cursor:pointer;">
+                            <div class="maintxt">
+                                <div class="top-left">Legeladottabb</div>
+                                <img class="img img-fluid" src="./img/legeladottabb2.png" alt="Legeladottabb" />
+                            </div>
                         </div>
                     </aside>
                 </div>
                 <div class="col-sm-6">
                     <section>
-                        <div class="card" type="button">
+                        <div class="card" type="button" data-bs-toggle="modal" data-bs-target="#modal3" style="cursor:pointer;">
                             <div class="maintxt">
-                                <div class="top-left">Kezdetek</div>
-                                <img class="kartya img img-fluid" src="./img/formavilagpng.png" class="img-responsive">
+                                <div class="top-left">Újmodellek</div>
+                                <img class="kartya img img-fluid" src="./img/Újmodell.jpg" alt="Kezdetek" />
                             </div>
-                    </div>
-                    <div class="card">
+                        </div>
+
+                        <div class="card" type="button" data-bs-toggle="modal" data-bs-target="#modal4" style="cursor:pointer;">
                             <div class="maintxt">
-                                <div class="top-left">Legeladottabb</div>
-                                <img class="img img-fluid" src="./img/5564_orig-1200x900.jpg" class="img-responsive">
+                                <div class="top-left">Formavilág</div>
+                                <img class="img img-fluid" src="./img/formavilag2.png" alt="Legeladottabb" />
                             </div>
-                    </div>
+                        </div>
                     </section>
                 </div>
             </div>
-            <footer>
-                footer
+            <footer class="responzive">
+                <div class="footer">
+                    Új lap minden szombaton!
+                </div>
             </footer>
         </main>
-
-
     </div>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>

@@ -1,8 +1,13 @@
+body{
+    background-color: black;
+    margin: auto;
+}
 .container{
     width: 80% !important;
 }
 .body{
     height: 768px !important;
+    background-color: black !important;
 }
 .navbar{
     background-color: #9de76e;
@@ -14,6 +19,10 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: xx-large
+}
+.card{
+    width: 584px;
+    padding: 0 !important;    
 }
 .card h2{
     text-justify: newspaper;
@@ -27,11 +36,98 @@ nav a{
     font-variant: small-caps;
   }
 footer{
-    background-color: black;
+    background-color: #9de76e;
+    font-family: 'Harlow Solid Italic', sans-serif;
+    font-size: xx-large;
+    text-align: right   ;
 }
-#bal, #jobb{
+.footer{
+    margin-right: 10px;
+}
+.left{
+    margin-left: 10px;
+
+}
+#bal{
     position:fixed !important;
+    width: 165px;
+} 
+#jobb{
+    position:fixed !important;
+    width: 165px;
 }
+aside,section img{
+    overflow: hidden !important;
+    width: auto;
+}
+
 #logo{
     padding-top: 250px;
+}
+
+.modal-content {
+    background-color: black;
+    color: black; 
+    border: 2px solid #9de76e; 
+    border-radius: 8px;
+}
+
+.modal-header, .modal-footer {
+    border-color: #9de76e;
+    background-color: black;
+}
+
+.modal-title {
+    color: #9de76e;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+}
+
+.modal-body {
+    color: black; 
+}
+
+.btn-close {
+    filter: invert(60%) sepia(100%) saturate(500%) hue-rotate(80deg) brightness(90%) contrast(90%);
+}
+
+.btn-close:hover {
+    filter: invert(80%) sepia(100%) saturate(700%) hue-rotate(80deg) brightness(110%) contrast(110%);
+}
+
+.btn-secondary {
+    background-color: #9de76e;
+    border-color: #9de76e;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: #7cc35a;
+    border-color: #7cc35a;
+    color: black;
+}
+
+section .card:hover {
+    box-shadow: 0 0 15px #9de76e;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+aside .card:hover {
+    box-shadow: 0 0 15px #9de76e !important;
+    cursor: pointer !important;
+    transition: box-shadow 0.3s ease-in-out !important;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: x-large;
+    background-color: #9de76e;
+    font-variant: small-caps;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: black;
 }

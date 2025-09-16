@@ -86,14 +86,11 @@
     <img id="bal" class="start-0" src="./img/baloldal2.png" alt="" />
     <div class="container clearfix">
         <nav class="navbar navbar-expand-lg">
-            <div class="container-md d-flex justify-content-between align-items-center">
-                <a href="#" class="nav-brand left wrapper">BZ Magazin</a>
-                <div class="nav-center text-center">
-                    <img class="kozepso" src=".img/kozepso.png" alt="Középső kép" />
-                    <div>Opel</div>
-                </div>
-        <a href="#" class="nav-brand right wrapper">Dátum: 2025.09.16</a>
-    </div>
+            <div class="container-md">
+                <a href="#" class="left nav-brand position-absolute top-0 start-0 wrapper"> BZ Magazin</a>
+                <a href="#" class="nav-brand position-absolute top-0 end-0 wrapper">Dátum: 2025.09.16</a>
+            </div>
+            <!-- container-md tartalom igazítása CSS-ben -->
         </nav>
         <main>
             <header>
@@ -102,7 +99,7 @@
                 </div>
             </header>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                     <aside>
                         <div class="card" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="cursor:pointer;">
                             <div class="maintxt">
@@ -121,7 +118,11 @@
                     </aside>
                    
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-4 d-flex justify-content-center align-items-center kozepso">
+                    <img src="./img/kozepso.png" alt="Középső kép" class="center-image" />
+                </div>
+
+                <div class="col-sm-4">
                     <section>
                         <div class="card" type="button" data-bs-toggle="modal" data-bs-target="#modal3" style="cursor:pointer;">
                             <div class="maintxt">

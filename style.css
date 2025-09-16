@@ -40,9 +40,11 @@ footer{
     font-family: 'Harlow Solid Italic', sans-serif;
     font-size: xx-large;
     text-align: right   ;
+    width: 1200px;
 }
 .footer{
     margin-right: 10px;
+    width: 1200px;
 }
 .left{
     margin-left: 10px;
@@ -50,11 +52,11 @@ footer{
 }
 #bal{
     position:fixed !important;
-    width: 165px;
+    height: 1000px;
 } 
 #jobb{
     position:fixed !important;
-    width: 165px;
+    height: 1000px;
 }
 aside,section img{
     overflow: hidden !important;
@@ -130,4 +132,14 @@ aside .card:hover {
     padding: 2px 8px;
     border-radius: 4px;
     color: black;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+}
+
+.astra{
+    width: 120%;
+    margin: auto;
 }
